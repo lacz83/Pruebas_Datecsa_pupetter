@@ -16,7 +16,7 @@ const { PuppeteerScreenRecorder } = require('puppeteer-screen-recorder');
     await recorder.start('./Videos/WF_Correspondencia_Rechazada_Reasignar.mp4');
     await animate(page);
     await new Promise(r => setTimeout(r, 3000));
-    //#endregion
+    //#endregionz
 
     //#region Inicio de sesión
     //await page.type('input[name="username"]', 'AGRAJALES')
